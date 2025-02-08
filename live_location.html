@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4bfea4a640973031552e87c1ea992050 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4bfea4a640973031552e87c1ea992050" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4bfea4a640973031552e87c1ea992050 = L.map(
+                "map_4bfea4a640973031552e87c1ea992050",
+                {
+                    center: [28.6519, 77.2315],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cc753542ede8825be74ab0c679d65d74 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cc753542ede8825be74ab0c679d65d74.addTo(map_4bfea4a640973031552e87c1ea992050);
+        
+    
+            var marker_fc0d41b298a91197d426a674595b2f52 = L.marker(
+                [22.3511148, 78.6677428],
+                {
+}
+            ).addTo(map_4bfea4a640973031552e87c1ea992050);
+        
+    
+            var icon_b24951cb1568d2de9f556bc46f2f6d63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc0d41b298a91197d426a674595b2f52.setIcon(icon_b24951cb1568d2de9f556bc46f2f6d63);
+        
+    
+        var popup_e98c5e6f4823abb316b286a71542e0c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5517df2e2300356e05e94de91475ecbd = $(`<div id="html_5517df2e2300356e05e94de91475ecbd" style="width: 100.0%; height: 100.0%;">📍 Phone Number Location: unnamed road, Tamiya, Tamia - 480559, Madhya Pradesh, India</div>`)[0];
+                popup_e98c5e6f4823abb316b286a71542e0c5.setContent(html_5517df2e2300356e05e94de91475ecbd);
+            
+        
+
+        marker_fc0d41b298a91197d426a674595b2f52.bindPopup(popup_e98c5e6f4823abb316b286a71542e0c5)
+        ;
+
+        
+    
+    
+            var marker_c4e48b7c3d374fc9c2be7fcd0ceae24c = L.marker(
+                [28.6519, 77.2315],
+                {
+}
+            ).addTo(map_4bfea4a640973031552e87c1ea992050);
+        
+    
+            var icon_0e019239a8b73246dd4bc3a01d0a3d46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c4e48b7c3d374fc9c2be7fcd0ceae24c.setIcon(icon_0e019239a8b73246dd4bc3a01d0a3d46);
+        
+    
+        var popup_29dc106a5a838820ea2248dadce1bb68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a36546d0913ff7f4f5f595ab1f273acc = $(`<div id="html_a36546d0913ff7f4f5f595ab1f273acc" style="width: 100.0%; height: 100.0%;">📡 Your Live Location: unnamed road, Old Delhi, - 110006, Delhi, India</div>`)[0];
+                popup_29dc106a5a838820ea2248dadce1bb68.setContent(html_a36546d0913ff7f4f5f595ab1f273acc);
+            
+        
+
+        marker_c4e48b7c3d374fc9c2be7fcd0ceae24c.bindPopup(popup_29dc106a5a838820ea2248dadce1bb68)
+        ;
+
+        
+    
+</script>
+</html>
